@@ -32,22 +32,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        {
-          name: "Home",
-          id: "hero",
-        },
-        {
-          name: "About",
-          id: "about",
-        },
-        {
-          name: "Invest",
-          id: "pricing",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Home", id: "hero" },
+        { name: "About", id: "about" },
+        { name: "Invest", id: "pricing" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Capital Trade Investment"
     />
@@ -55,60 +43,23 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroCentered
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Double Your Wealth with Capital Trade"
       description="We turn your investment into 200% returns with our expert-managed financial strategies."
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg",
-          alt: "Investor 1",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/business-woman-with-laptop-looking-away_23-2148317298.jpg",
-          alt: "Investor 2",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/elderly-businessman-looking-through-window_23-2148116300.jpg",
-          alt: "Investor 3",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/beautiful-woman-white-shirt-outside-street_1303-23135.jpg",
-          alt: "Investor 4",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/businesswoman-standing-outdoors-city-office-building_1157-36108.jpg",
-          alt: "Investor 5",
-        },
+        { src: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg", alt: "Investor 1" },
+        { src: "http://img.b2bpic.net/free-photo/business-woman-with-laptop-looking-away_23-2148317298.jpg", alt: "Investor 2" },
+        { src: "http://img.b2bpic.net/free-photo/elderly-businessman-looking-through-window_23-2148116300.jpg", alt: "Investor 3" },
+        { src: "http://img.b2bpic.net/free-photo/beautiful-woman-white-shirt-outside-street_1303-23135.jpg", alt: "Investor 4" },
+        { src: "http://img.b2bpic.net/free-photo/businesswoman-standing-outdoors-city-office-building_1157-36108.jpg", alt: "Investor 5" },
       ]}
-      buttons={[
-        {
-          text: "Start Investing",
-          href: "#pricing",
-        },
-      ]}
+      buttons={[{ text: "Start Investing", href: "#pricing" }]}
       marqueeItems={[
-        {
-          type: "text",
-          text: "200% Annualized ROI",
-        },
-        {
-          type: "text",
-          text: "Trusted by 50,000+ Investors",
-        },
-        {
-          type: "text",
-          text: "SEC Registered Firm",
-        },
-        {
-          type: "text",
-          text: "Instant Withdrawals",
-        },
-        {
-          type: "text",
-          text: "Secure Cold Storage",
-        },
+        { type: "text", text: "200% Annualized ROI" },
+        { type: "text", text: "Trusted by 50,000+ Investors" },
+        { type: "text", text: "SEC Registered Firm" },
+        { type: "text", text: "Instant Withdrawals" },
+        { type: "text", text: "Secure Cold Storage" },
       ]}
     />
   </div>
@@ -118,9 +69,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="About Capital Trade"
       description={[
-        "We are a leading investment firm specializing in diversified asset management, delivering consistent 200% returns for our global investors.",
-        "Our team combines cutting-edge financial algorithms with seasoned human oversight to identify high-growth opportunities while minimizing exposure.",
-      ]}
+        "We are a leading investment firm specializing in diversified asset management, delivering consistent 200% returns for our global investors.",        "Our team combines cutting-edge financial algorithms with seasoned human oversight to identify high-growth opportunities while minimizing exposure."]}
     />
   </div>
 
@@ -130,21 +79,9 @@ export default function LandingPage() {
       title="Performance Snapshot"
       tag="Trusted by Thousands"
       metrics={[
-        {
-          id: "m1",
-          value: "200%",
-          description: "Guaranteed Return Rate",
-        },
-        {
-          id: "m2",
-          value: "50k+",
-          description: "Active Investors",
-        },
-        {
-          id: "m3",
-          value: "12yrs",
-          description: "Market Experience",
-        },
+        { id: "m1", value: "200%", description: "Guaranteed Return Rate" },
+        { id: "m2", value: "50k+", description: "Active Investors" },
+        { id: "m3", value: "12yrs", description: "Market Experience" },
       ]}
       metricsAnimation="slide-up"
     />
@@ -157,52 +94,19 @@ export default function LandingPage() {
       useInvertedBackground={true}
       plans={[
         {
-          id: "1",
-          title: "Starter Plan",
-          price: "$100",
-          period: "Fixed",
-          features: [
-            "200% Profit",
-            "Instant Withdrawal",
-            "24/7 Support",
-          ],
-          button: {
-            text: "Invest Now",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg?_wi=1",
-          imageAlt: "professional investment advisor",
+          id: "1",          title: "Starter Plan",          price: "$100",          period: "Fixed",          features: ["200% Profit", "Instant Withdrawal", "24/7 Support"],
+          button: { text: "Invest Now" },
+          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg",          imageAlt: "professional investment advisor"
         },
         {
-          id: "2",
-          title: "Advanced Plan",
-          price: "$500",
-          period: "Fixed",
-          features: [
-            "200% Profit",
-            "Portfolio Management",
-            "Priority Support",
-          ],
-          button: {
-            text: "Invest Now",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg?_wi=1",
-          imageAlt: "professional investment advisor",
+          id: "2",          title: "Advanced Plan",          price: "$500",          period: "Fixed",          features: ["200% Profit", "Portfolio Management", "Priority Support"],
+          button: { text: "Invest Now" },
+          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg",          imageAlt: "professional investment advisor"
         },
         {
-          id: "3",
-          title: "Pro Plan",
-          price: "$1000",
-          period: "Fixed",
-          features: [
-            "200% Profit",
-            "Account Manager",
-            "VIP Access",
-          ],
-          button: {
-            text: "Invest Now",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg?_wi=1",
-          imageAlt: "professional investment advisor",
+          id: "3",          title: "Pro Plan",          price: "$1000",          period: "Fixed",          features: ["200% Profit", "Account Manager", "VIP Access"],
+          button: { text: "Invest Now" },
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg",          imageAlt: "professional investment advisor"
         },
       ]}
       title="Investment Plans"
@@ -217,55 +121,25 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Secure Trading",
-          description: "Your funds are protected with top-tier security standards.",
-          icon: Shield,
+          title: "Secure Trading",          description: "Your funds are protected with top-tier security standards.",          icon: Shield,
           mediaItems: [
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg?_wi=2",
-              imageAlt: "Security",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904316.jpg",
-              imageAlt: "Security",
-            },
+            { imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg", imageAlt: "Security" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904316.jpg", imageAlt: "Security" },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg?_wi=2",
-          imageAlt: "financial investment growth chart",
         },
         {
-          title: "Fast Payouts",
-          description: "We ensure your returns reach you in record time.",
-          icon: Zap,
+          title: "Fast Payouts",          description: "We ensure your returns reach you in record time.",          icon: Zap,
           mediaItems: [
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-laptop-running-data-insights-empty-dark-office-late-night_482257-130090.jpg",
-              imageAlt: "Payouts",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/empty-business-workspace-with-device-showing-data-analytics-infographics_482257-116612.jpg",
-              imageAlt: "Payouts",
-            },
+            { imageSrc: "http://img.b2bpic.net/free-photo/close-up-laptop-running-data-insights-empty-dark-office-late-night_482257-130090.jpg", imageAlt: "Payouts" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/empty-business-workspace-with-device-showing-data-analytics-infographics_482257-116612.jpg", imageAlt: "Payouts" },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg?_wi=2",
-          imageAlt: "financial investment growth chart",
         },
         {
-          title: "Expert Advice",
-          description: "Get professional consultation from our finance experts.",
-          icon: Award,
+          title: "Expert Advice",          description: "Get professional consultation from our finance experts.",          icon: Award,
           mediaItems: [
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/coin-wooden-table-blurred-nature_1150-17703.jpg",
-              imageAlt: "Advice",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/business-concept-with-graphic-holography_23-2149160932.jpg",
-              imageAlt: "Advice",
-            },
+            { imageSrc: "http://img.b2bpic.net/free-photo/coin-wooden-table-blurred-nature_1150-17703.jpg", imageAlt: "Advice" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/business-concept-with-graphic-holography_23-2149160932.jpg", imageAlt: "Advice" },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/business-woman-with-laptop-looking-away_23-2148317298.jpg",
-          imageAlt: "financial investment growth chart",
         },
       ]}
       title="Why Choose Us?"
@@ -280,26 +154,11 @@ export default function LandingPage() {
       rating={5}
       author="Sarah Miller"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/closeup-happy-business-man-standing-outside_1262-3488.jpg",
-          alt: "Sarah",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/happy-intern-starting-her-career_1262-17047.jpg",
-          alt: "Jane",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/african-business-lady-standing-grey-background_171337-16083.jpg",
-          alt: "John",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/elegant-businesswoman-making-phone-call_23-2147989699.jpg",
-          alt: "David",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/businesswoman-standing-outdoors-city-office-building_1157-36108.jpg",
-          alt: "Mike",
-        },
+        { src: "http://img.b2bpic.net/free-photo/closeup-happy-business-man-standing-outside_1262-3488.jpg", alt: "Sarah" },
+        { src: "http://img.b2bpic.net/free-photo/happy-intern-starting-her-career_1262-17047.jpg", alt: "Jane" },
+        { src: "http://img.b2bpic.net/free-photo/african-business-lady-standing-grey-background_171337-16083.jpg", alt: "John" },
+        { src: "http://img.b2bpic.net/free-photo/elegant-businesswoman-making-phone-call_23-2147989699.jpg", alt: "David" },
+        { src: "http://img.b2bpic.net/free-photo/businesswoman-standing-outdoors-city-office-building_1157-36108.jpg", alt: "Mike" },
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
@@ -311,21 +170,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       faqs={[
-        {
-          id: "q1",
-          title: "How does the 200% return work?",
-          content: "Our expert team reinvests your capital into profitable assets to ensure you get your promised 200% return.",
-        },
-        {
-          id: "q2",
-          title: "Is my investment safe?",
-          content: "Yes, we use industry-standard encryption to protect your funds at all times.",
-        },
-        {
-          id: "q3",
-          title: "Can I withdraw anytime?",
-          content: "Yes, withdrawal processes are instant and handled securely via your dashboard.",
-        },
+        { id: "q1", title: "How does the 200% return work?", content: "Our expert team reinvests your capital into profitable assets to ensure you get your promised 200% return." },
+        { id: "q2", title: "Is my investment safe?", content: "Yes, we use industry-standard encryption to protect your funds at all times." },
+        { id: "q3", title: "Can I withdraw anytime?", content: "Yes, withdrawal processes are instant and handled securely via your dashboard." },
       ]}
       title="Frequently Asked"
       description="Get answers to your questions about our investment process."
@@ -339,16 +186,9 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={true}
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       text="Ready to Start Your Journey?"
-      buttons={[
-        {
-          text: "Contact Support",
-          href: "#",
-        },
-      ]}
+      buttons={[{ text: "Contact Support", href: "#" }]}
     />
   </div>
 
