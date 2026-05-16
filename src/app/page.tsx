@@ -169,7 +169,7 @@ export default function LandingPage() {
           button: {
             text: "Invest Now",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg?_wi=1",
           imageAlt: "professional investment advisor",
         },
         {
@@ -185,7 +185,7 @@ export default function LandingPage() {
           button: {
             text: "Invest Now",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg?_wi=1",
           imageAlt: "professional investment advisor",
         },
         {
@@ -201,7 +201,7 @@ export default function LandingPage() {
           button: {
             text: "Invest Now",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg?_wi=1",
           imageAlt: "professional investment advisor",
         },
       ]}
@@ -222,7 +222,7 @@ export default function LandingPage() {
           icon: Shield,
           mediaItems: [
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg",
+              imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg?_wi=2",
               imageAlt: "Security",
             },
             {
@@ -230,7 +230,7 @@ export default function LandingPage() {
               imageAlt: "Security",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tablet-shows-analytics-data-meeting_482257-120318.jpg?_wi=2",
           imageAlt: "financial investment growth chart",
         },
         {
@@ -247,7 +247,7 @@ export default function LandingPage() {
               imageAlt: "Payouts",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-mature-businessman-with-laptop-desk-restaurant_23-2147956344.jpg?_wi=2",
           imageAlt: "financial investment growth chart",
         },
         {
