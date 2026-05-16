@@ -101,7 +101,7 @@ export default function LandingPage() {
         {
           id: "2",          title: "Advanced Plan",          price: "$500",          period: "Fixed",          features: ["200% Profit", "Portfolio Management", "Priority Support"],
           button: { text: "Invest Now" },
-          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg",          imageAlt: "professional investment advisor"
+          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg?_wi=1",          imageAlt: "professional investment advisor"
         },
         {
           id: "3",          title: "Pro Plan",          price: "$1000",          period: "Fixed",          features: ["200% Profit", "Account Manager", "VIP Access"],
@@ -123,7 +123,7 @@ export default function LandingPage() {
         {
           title: "Secure Trading",          description: "Your funds are protected with top-tier security standards.",          icon: Shield,
           mediaItems: [
-            { imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg", imageAlt: "Security" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/futuristic-data-interface_23-2152011741.jpg?_wi=2", imageAlt: "Security" },
             { imageSrc: "http://img.b2bpic.net/free-photo/dynamic-data-visualization-3d_23-2151904316.jpg", imageAlt: "Security" },
           ],
         },
